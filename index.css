@@ -3,8 +3,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: hsl(212, 45%, 89%);
     margin: 0 auto;
-    height: 100vh;
-    min-height: 500px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +12,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     width: 270px;
@@ -36,7 +35,7 @@ body {
     row-gap: 18px;
 }
 
-.boldText {
+h1 {
     margin: 0 auto;
     width: 243px;
     font-weight: 700;
@@ -45,7 +44,8 @@ body {
     text-align: center;
 }
 
-.lightText {
+p {
+    margin: 0 auto;
     font-weight: 400;
     width: 243px;
     font-size: 15px;
@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-.attribution {
+footer {
     color: hsl(220, 15%, 55%);
     font-size: 12px;
 }
